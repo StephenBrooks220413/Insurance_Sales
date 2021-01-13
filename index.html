@@ -21,11 +21,12 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- Site CSS -->
-    <link rel="stylesheet" href="style.css">    
+    <link rel="stylesheet" href="style.min.css">    
     <!-- Responsive CSS -->
-    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/responsive.min.css">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/custom.min.css">
+	<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
 
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -43,8 +44,8 @@
     <header class="header header_style_01"> 
         <nav class="navbar header-nav navbar-expand-lg">
             <div class="container">
-				<a class="navbar-brand" href="index.html"><img src="./images/insrLogo.png" width="210px" height="110px" alt="image"></a>
-                <p style="font-size:1.4em;">call 318-272-9333</p>
+				<a class="navbar-brand" href="index.html"><img src="./images/logo.PNG" width="210px" height="110px" alt="image"></a>
+				<p style="font-size:1.4em;">call 580-309-0236</p>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarApp" aria-controls="navbarApp" aria-expanded="false" aria-label="Toggle navigation">
 					<span></span>
 					<span></span>
@@ -53,12 +54,12 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbarApp">
                     <ul class="navbar-nav">
                         <li><a class="nav-link active" href="#home">Home</a></li>
-                        <li><a class="nav-link" href="#features">Features</a></li>
+                        <li><a class="nav-link" href="#quotes">Quotes</a></li>
                         <li><a class="nav-link" href="#download">Download</a></li>
                         <li><a class="nav-link" href="#pricing">Pricing</a></li>
                         <li><a class="nav-link" href="#clients">Clients</a></li>
                         <li><a class="nav-link" href="#faqs">FAQs</a></li>
-						<li><a class="nav-link" href="mailto:stephen.brooks220413@gmail.com">Contact</a></li>
+						<li><a class="nav-link" href="#contact">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -139,17 +140,14 @@
 			</nav> 
 		</div> <!-- .cd-hero__nav -->
 	</section> <!-- .cd-hero -->
-
-	
 	<div id="about" class="section wb">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
 					<div class="section-title text-center">
-						<p style="font-size:2em; margin-bottom: 80px;">
-							<a href="https://calendly.com/stephen-brooks220413/15min" target="_blank">Schedule With Me</a>
-						</p>
+						<br><br>
 						<h3>About Us</h3>
+
 						<p>Started up in 2014 in Louisiana, then offered policies in Texas, Illinois, and grew to all 50 states.<br>What made me popular was the ease of applying and getting people approved!</p>
 					</div><!-- end title -->
 				</div>
@@ -185,73 +183,58 @@
 		</div>
 	</div>
 	
-    <div id="features" class="section lb">
+    <div id="quotes" class="section lb">
         <div class="container">
             <div class="section-title text-center">
-            	<p font-size: 2em;>
-					<a href="https://calendly.com/stephen-brooks220413/15min">Schedule With Me</a>
-				</p>
-				 <!-- Start Square Appointments Embed code --> <a target="_top" style=" background-color: #1E93CC; color: white; height: 40px; text-transform: uppercase; font-family: 'Square Market', 'helvetica neue', helvetica, arial, sans-serif; letter-spacing: 1px; line-height: 38px; padding: 0 28px; border-radius: 3px; font-weight: 500; font-size: 14px; cursor: pointer; display: inline-block; " href="https://square.site/book/QZHJMNZ5PVD2G/brooks-life-agency-fort-sill-ok" rel="nofollow" target="_blank">Book an appointment</a> <!-- End Square Appointments Embed code -->
-                <h3>Policy Features</h3>
-                <p class="lead">Whole life insurance builds cash value, meaning it builds equity so you can borrow from later in emergencies or use it to pay your premiums.<br>Permanent Protection that never changes!</p>
+				<img src="https://www.kumc.edu/Images/siddrc/Schedule-banner-21.jpg"
+					alt="calendar"
+					width="70%"
+					max-height="410px"
+					class="text-center container"
+				/>
+				<br><br><br>
+				<!-- Calendly link widget begin -->
+				<a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/krammer439298/in-home-visit-local-only'});return false;"><h2 class="text-primary">Schedule time an in home visit with me</h2></a>
+				<a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/krammer439298/schedule-visit'});return false;"><h2 class="text-primary">Schedule a phone call with me</h2></a>
+				<!-- Calendly link widget end -->
+				<br><br><br><br>
+				 <h3>Get A Quote</h3>
+				 <div class="row">
+					 <div class="col-md-3">
+						<div class="card card-body">
+							<i class="display-4 fas fa-life-ring"></i> <br>
+							<label style="font-size: 22px;" for="">Life</label>
+						</div>
+					 </div>
+					 <div class="col-md-3">
+						<div class="card card-body">
+							<i class="display-4 fas fa-heartbeat"></i> <br>
+							<label style="font-size: 22px;" for="">Health</label>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="card card-body">
+							<i class="display-4 fas fa-car-crash"></i> <br>
+							<label style="font-size: 22px;" for="">Auto</label>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="card card-body">
+							<i class="display-4 fas fa-home"></i> <br>
+							<label style="font-size: 22px;" for="">Home & Renter</label>
+						</div>
+					 </div>
+				 </div>
+				 <br><br>
+				<p class="lead">Our insurance gives you a peace of mind so you don't have to worry about that night.<br>We want you to sleep soundly and worry free!</p>
+				<br>
             </div><!-- end title -->
-
+			
             <div class="row">
-				<div class="col-md-4">
-                    <div class="services-inner-box">
-						<div class="ser-icon">
-							<i class="flaticon-new-file effect-1"></i>		
-						</div>
-						<h2>Term Life</h2>
-						<p>High benefit & low premium for those life situations where you have debt other financial interest to protect and burial expenses.</p>
-					</div>
-                </div><!-- end col -->
-                <div class="col-md-4">
-                    <div class="services-inner-box">
-						<div class="ser-icon">
-							<i class="flaticon-price-tag effect-1"></i>
-						</div>
-						<h2>Mortgage & Income Protect</h2>
-						<p>Cover what you have worked for and what you are getting now. If this is more important to you then let's talke about that.</p>
-					</div>
-                </div><!-- end col -->
-				<div class="col-md-4">
-                    <div class="services-inner-box">
-						<div class="ser-icon">
-							<i class="flaticon-windows effect-1"></i>
-						</div>
-						<h2>Children policies</h2>
-						<p>I offer the most competitive policies for children, and getting approved is easy. They are the future, so let's protect that too.</p>
-					</div>
-                </div><!-- end col -->
-				<div class="col-md-4">
-                    <div class="services-inner-box">
-						<div class="ser-icon">
-							<i class="flaticon-new-file effect-1"></i>
-						</div>
-						<h2>Final Expenses</h2>
-						<p>Affordable and simplified issue policies that stay locked in, and garaunteed to never change because your health does.</p>
-					</div>
-                </div><!-- end col -->
-				<div class="col-md-4">
-                    <div class="services-inner-box">
-						<div class="ser-icon">
-							<i class="flaticon-pantone effect-1"></i>
-						</div>
-						<h2>Experienced Agent</h2>
-						<p>I am the agent that puts you first, I am the agent that fights for your approval.</p>
-					</div>
-                </div><!-- end col -->
-				<div class="col-md-4">
-                    <div class="services-inner-box">
-						<div class="ser-icon">
-							<i class="flaticon-cloud-computing effect-1"></i>
-						</div>
-						<h2>Best Practices</h2>
-						<p>Yes I am in the business to make money as anyone else, but if it is in you best interest then we part ways.</p>
-					</div>
-                </div><!-- end col -->
-            </div>
+				<div class="col-md-12">
+
+				</div>
+			</div>
 			
         </div><!-- end container -->
     </div><!-- end section -->
@@ -272,23 +255,20 @@
         <div class="hc colon3">
             <h2>3</h2>
             <h3>Apply & Underwriting</h3>
-            <p>I recommend a particular company I use because of famlarity with them.</p>
+            <p>I make recommendations on the underwriting life insurance company because of familiarity with the carriers.</p>
         </div><!-- end col -->  
 
         <div class="hc colon4">
             <h2>4</h2>
             <h3>Policy Issued</h3>
-            <p>A policy gets sent to you, sometimes emailed wihtin 24 hours.</p>
+            <p>A policy gets sent to you, sometimes emailed or delivered to you.</p>
         </div><!-- end col -->  
     </div><!-- end how-its-work -->
 
     <div id="screenshots" class="section wb">
         <div class="container">
             <div class="section-title text-center">
-            	<p style="font-size: 2em; font-weight: bold;">
-					<a href="https://calendly.com/stephen-brooks220413/15min" target="_blank">Schedule With Me</a>
-				</p>
-                <h3>First Day Coverage</h3>
+                <h3>Do it for your reason why.</h3>
                 <p class="lead">Available for those who qualify and fit the criteria<br>you can get covered the same day!</p>
             </div><!-- end title -->
 
@@ -403,153 +383,107 @@
                 <div class="col-md-6 col-sm-12">
                     <div class="customwidget text-left">
                         <h1>Why Wait Any Longer?</h1>
-                        <p> Get approved today and start the protection now, don't make your family wait any longer.</p>
+						<p> Get approved today and start the protection now, don't make your family wait any longer.</p>
+						<p>With several carriers to choose from, I can find the affordable price. One of the carriers brochures are listed below.</p>
+						<br />
+						<a href="brochure.pdf" download="brochure.pdf">
+							<span style="font-size: 24px; color: goldenrod;">Life Insurance Brochure</span>
+						</a> <br>
+						<a href="accident.pdf" download="accident.pdf">
+							<span style="font-size: 24px; color: goldenrod;">Accident Insurance Brochure</span>
+						</a> <br>
+						<a href="cancer.pdf" download="cancer.pdf">
+							<span style="font-size: 24px; color: goldenrod;">Cancer Insurance Brochure</span>
+						</a> <br>
+						<a href="medicare.pdf" download="medicare.pdf">
+							<span style="font-size: 24px; color: goldenrod;">Medicare Brochure</span>
+						</a>
                     </div>
                 </div><!-- end col -->
                 <div class="col-md-6 iphones">
                     <div class="text-center image-center">
                         <img src="https://images.pexels.com/photos/359989/pexels-photo-359989.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500 alt=" class="img-fluid wow fadeInUp">
                     </div>
-            	<p style="font-size: 2em; font-weight: bold;">
-					<a href="https://calendly.com/stephen-brooks220413/15min" target="_blank">Schedule With Me</a>
-				</p>
                 </div>
             </div><!-- end row -->
         </div><!-- end container -->
     </div><!-- end section -->
 
+    <div style="margin-top: 110px;"></div>
 
-    <div id="team" class="section wb">
-        <div class="container">
-            <div class="section-title text-center">
-                <h3>Meet The Producer</h3>
-                <p class="lead">The one behind it all and the last one you will ever need to meet again<br> protected generations of families and was there to hand over the check in the time of need..</p>
-            </div><!-- end title -->
-
-            <div class="row">
-                <div class="col-md-4 col-sm-6">
-                    <div class="our-team">
-                        <div class="team_img">
-                            <img src="https://www.thebalancecareers.com/thmb/BjbH2bdVFlG_6UaShO-hw_et52Y=/1280x855/filters:fill(auto,1)/131983911-56a2ee515f9b58b7d0cfc8a0.jpg" height="410px;">
-                            <!-- <ul class="social">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                            </ul> -->
-                        </div>
-                        <div class="team-content">
-                            <h3 class="title">Our Agents</h3>
-                            <span class="post">Producers & Insurance Adbisors</span>
-							<p>Experienced in Life, health, property and casualty</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-6">
-                    <div class="our-team">
-                        <div class="team_img">
-                            <img src="uploads/team_02.jpg">
-                            <ul class="social">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="https://github.com/StepheBrooks220413"><i class="fa fa-github"></i></a></li>
-                                <li><a href="https://www.linkedin.com/in/stephen-brooks-897a1110a"><i class="fa fa-linkedin"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="team-content">
-                            <h3 class="title">Stephen Brooks</h3>
-                            <span class="post">Web Developer</span>
-							<p>Web Designer for responsive and natural flowing pages, and nice appearance for consumers.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-6">
-                    <div class="our-team">
-                        <div class="team_img">
-                            <img src="http://cdn2.hubspot.net/hub/293349/file-586105262-jpg/images/Blog/Insurance_Agent_Sales.jpg">
-                           <!--  <ul class="social">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                            </ul> -->
-                        </div>
-                        <div class="team-content">
-                            <h3 class="title">Michael Brooks</h3>
-                            <span class="post">Senior Agent</span>
-							<p>Piecing together policies for the senor market and advising.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div><!-- end container -->
-    </div><!-- end section -->
+    <center>
+    <div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<iframe width="100%" height="474" src="https://www.youtube.com/embed/fKLasiX0hIY?list=PLJVKYiW2lCj4MaRqhNmhl4EkUSoOuI1hm" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+		</div>
+	</div>
+    </center>
 
 
     <div id="pricing" class="section lb">
         <div class="container">
+			<br /><br /><br />
             <div class="section-title text-center">
-            	<p style="font-size: 1em; font-weight: bold; margin-bottom: 60px;">
-					<a href="https://calendly.com/stephen-brooks220413/15min" target="_blank">Schedule With Me</a>
-				</p>
-                <h3>Insurance Quotes</h3>
-                <p>Get Permanent Coverage <strong>for low month rates!</strong> It is estimated that 3.5 million will save money on my plans.<br> From each other, let's refer family members as well and those you care about most...</p>
+                <h3>Insurance Products</h3>
+                <p itemprop="article-section" itemid="article-body">Get Permanent Coverage <strong>for low month rates!</strong> It is estimated that 3.5 million will save money on my plans.<br> From each other, let's refer family members as well and those you care about most...</p>
             </div><!-- end title -->
-
-            <div class="row">
-                <div class="col-md-4 col-sm-6">
-                    <div class="pricingTable">
-                        <div class="price-value">Low
-                            <span class="month">monthly</span>
-                        </div>
-                        <h3 class="title">Whole Life</h3>
-                        <ul class="pricing-content">
-                            <li>Permanent Coverage</li>
-                            <li>For the whole family</li>
-                            <li>Cash Build Policies</li>
-                            <li>Use money for college</li>
-                            <li>Easy to be approved</li>
-                            <li>A+ Carriers Only Used</li>
-                        </ul>
-                        <a href="mailto:sbrooks@assurance.com" class="pricingTable-signup hvr-bounce-to-right">Sign Up</a>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-6">
-                    <div class="pricingTable active">
-                        <div class="price-value">Save
-                            <span class="month">monthly</span>
-                        </div>
-                        <h3 class="title">Term Life</h3>
-                        <ul class="pricing-content">
-                            <li>Protect Your Mortgage</li>
-                            <li>Cover All your assets</li>
-                            <li>Leave behind a financial gift</li>
-                            <li>No Medical exams for simple issue</li>
-                            <li>Medical Exams for low rate</li>
-                        </ul>
-                        <a href="mailto:sbrooks@assurance.com" class="pricingTable-signup hvr-bounce-to-right">Sign Up</a>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-6">
-                    <div class="pricingTable">
-                        <div class="price-value">Fixed
-                            <span class="month">monthly</span>
-                        </div>
-                        <h3 class="title">Burial</h3>
-                        <ul class="pricing-content">
-                            <li>Money to cover cremations</li>
-                            <li>Money for funerals</li>
-                            <li>Cash build policy</li>
-                            <li>Sameday Coverage</li>
-                            <li>Fast Issue</li>
-                        </ul>
-                        <a href="mailto:sbrooks@assurance.com" class="pricingTable-signup hvr-bounce-to-right">Sign Up</a>
-                    </div>
-                </div>
+			<div class="row">
+				<div class="col-md-4">
+                    <div class="services-inner-box">
+						<div class="ser-icon">
+							<i class="flaticon-new-file effect-1"></i>		
+						</div>
+						<h2>Term Life</h2>
+						<p>High benefit & low premium for those life situations where you have debt other financial interest to protect and burial expenses.</p>
+					</div>
+                </div><!-- end col -->
+                <div class="col-md-4">
+                    <div class="services-inner-box">
+						<div class="ser-icon">
+							<i class="flaticon-price-tag effect-1"></i>
+						</div>
+						<h2>Health Insurance</h2>
+						<p>Cover what you have worked for and what you are getting now. If this is more important to you then let's talk about that.</p>
+					</div>
+                </div><!-- end col -->
+				<div class="col-md-4">
+                    <div class="services-inner-box">
+						<div class="ser-icon">
+							<i class="flaticon-windows effect-1"></i>
+						</div>
+						<h2>Children policies</h2>
+						<p>I offer the most competitive policies for children, and getting approved is easy. They are the future, so let's protect that too.</p>
+					</div>
+                </div><!-- end col -->
+				<div class="col-md-4">
+                    <div class="services-inner-box">
+						<div class="ser-icon">
+							<i class="flaticon-new-file effect-1"></i>
+						</div>
+						<h2>Final Expenses</h2>
+						<p>Affordable and simplified issue policies that stay locked in, and garaunteed to never change because your health does.</p>
+					</div>
+                </div><!-- end col -->
+				<div class="col-md-4">
+                    <div class="services-inner-box">
+						<div class="ser-icon">
+							<i class="flaticon-pantone effect-1"></i>
+						</div>
+						<h2>Home and Auto</h2>
+						<p>Policies with the most trusted carriers and the most competitive rates, also with business lines as well..</p>
+					</div>
+                </div><!-- end col -->
+				<div class="col-md-4">
+                    <div class="services-inner-box">
+						<div class="ser-icon">
+							<i class="flaticon-cloud-computing effect-1"></i>
+						</div>
+						<h2>Vision and Dental</h2>
+						<p>With carriers accepted everywhere and no worry about being out of network. Choose your type of plan, most people prefer PPO.</p>
+					</div>
+                </div><!-- end col -->
             </div>
         </div><!-- end container -->
     </div><!-- end section -->
@@ -575,7 +509,7 @@
 		 
 							<div class="testimonial">
 								<p class="description">
-									I was facing coverage loss from work because my employer was stopping benefits until a company was emplace. They offered some coverage but it was too much. I called Brooks Insurance and he helped a lot.
+									I was facing coverage loss from work because my employer was stopping benefits until an insurance company was emplace. They offered some coverage but it was too much. I called Brooks Insurance and he helped a lot.
 								</p>
 								<h3 class="title">Mike Hutches</h3>
 								<span class="post">Construction Worker</span>
@@ -583,7 +517,7 @@
 		 
 							<div class="testimonial">
 								<p class="description">
-									I shopped around for coverage and seen competitive quotes online. Brooks Insurance was the 4th mos competitive I had seen, but based onthe reputations and the carriers he used, I went with him. Because it's all about trust and not price sometimes.
+									I shopped around for coverage and seen competitive quotes online. Brooks Insurance had the most competitive rates I had seen, but based on the reputations and the carriers he used, I went with him. Because it's all about trust and not price sometimes.
 								</p>
 								<h3 class="title">Jon Reeves</h3>
 								<span class="post">Father & Husband</span>
@@ -594,8 +528,7 @@
             </div><!-- end row -->
         </div><!-- end container -->
     </div><!-- end section -->
-	
-	
+
 	<div id="faqs" class="section lb">
 		<div class="container">
 			<div class="row align-items-center">
@@ -656,6 +589,7 @@
 		</div>
 	</div>
 
+
     <div id="contact" class="section lb">
         <div class="container">
             <div class="section-title text-center">
@@ -663,7 +597,7 @@
 				<div class="info-box" data-toggle="tooltip" data-placement="bottom" title="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.">
 					<i class="fa fa-question-circle" aria-hidden="true"></i>
 				</div>
-            </div><!-- end title -->
+            </div>
            
 
             <div class="row">
@@ -673,22 +607,25 @@
                         <form name="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true">
                             <div class="row">
                                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                    <input type="text" name="first_name" id="first_name" class="form-control" placeholder="First Name">
+                                    <input type="text" required name="first_name" id="first_name" class="form-control" placeholder="First Name">
                                 </div>
                                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                    <input type="text" name="last_name" id="last_name" class="form-control" placeholder="Last Name">
+                                    <input type="text" required name="last_name" id="last_name" class="form-control" placeholder="Last Name">
                                 </div>
                                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                    <input type="email" name="email" id="email" class="form-control" placeholder="Your Email">
+                                    <input type="email" required name="email" id="email" class="form-control" placeholder="Your Email">
                                 </div>
                                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                    <input type="text" name="phone" id="phone" class="form-control" placeholder="Your Phone">
+                                    <input type="text" required name="phone" id="phone" class="form-control" placeholder="Your Phone">
                                 </div>
                                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                    <textarea class="form-control" name="comments" id="comments" rows="6" placeholder="Give us more details.."></textarea>
+                                    <textarea class="form-control" required spellcheck="true" maxlength="355" name="comments" id="comments" rows="6" placeholder="Give us more details.."></textarea>
                                 </div>
                                 <div class="text-center pdi">
-                                    <button type="submit" value="SEND" id="submit" class="hvr-bounce-to-right get-btn">Get a Quote</button>
+									<br><br>
+									<h2><span style="color:white;">What are you needing help with?</span> <select name="selection" id="selection"> <option value="" selected></option> <option value="life">life insurance</option> <option value="health">health insurance</option> <option value="home">home insurance</option> <option value="life">auto insurance</option> </select></h2>
+									<br><br>
+                                    <button type="submit" value="SEND" id="submit" class="hvr-bounce-to-right get-btn">Get a Quote</button> 
                                 </div>
                                 <div data-netlify-recaptcha="true"></div>
                             </div>
@@ -697,7 +634,7 @@
                 </div>
             </div>
         </div>
-    </div><!-- end section -->
+    </div>
 
     <footer class="footer">
 		<div class="container"> 
@@ -705,7 +642,7 @@
 				<div class="col-md-12"> 
 					<div class="subscribe-text">
 						<h3>Subscribe for Newsletter</h3>
-						<p>Lorem ipsum madolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor coli incididunt ut labore Lorem ipsum madolor sit amet, consectetur adipisicing incididunt.</p>
+						<p>Stay current on change smade to insurance and narrow it down to the best policy to go with.</p>
 					</div>
 					
 					<div class="subscribe-form">
@@ -724,20 +661,23 @@
             <div class="footer-distributed">
                 <div class="footer-left">                    
                     <p class="footer-company-name">All Rights Reserved. &copy; 2014 <a href="#">Brooks Insurance</a> Designed By : 
-					<a href="https://www.developing4life.com" target="_blank">the developer</a></p>
+					<a href="https://www.clear-web-designs.com" target="_blank">the developer</a></p>
                 </div>
             </div>
         </div><!-- end container -->
     </div><!-- end copyrights -->
 
-    <a href="#home" data-scroll class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
-
+	<a href="#home" data-scroll class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+	
+	<!-- font awesome -->
+	<script src="https://kit.fontawesome.com/cce4d0df7e.js" crossorigin="anonymous"></script>
     <!-- ALL JS FILES -->
-    <script src="js/all.js"></script>
+    <script src="js/all.min.js"></script>
     <!-- ALL PLUGINS -->
-	<script src="js/main.js"></script>
-    <script src="js/custom.js"></script>
+	<script src="js/main.min.js"></script>
+    <script src="js/custom.min.js"></script>
 	<script src="js/swiper.min.js"></script>
+	<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
 	<script>
 		var swiper = new Swiper('.swiper-container', {
 			loop: true,

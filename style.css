@@ -1550,7 +1550,10 @@ hr.invis1 {
     background: url("uploads/design.jpg") no-repeat;
 }
 
-
+.team-img {
+    max-height: 540px!important;
+    max-width: 350px;
+}
 
 .our-team{
     text-align: center;
